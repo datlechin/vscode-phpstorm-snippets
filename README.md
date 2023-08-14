@@ -29,4 +29,4 @@ This extension includes the following PHPStorm-inspired code snippets:
 
 ## License
 
-PHPStorm Snippets is open-sourced software licensed under [the MIT license](./LICENSE.md)
+PHPStorm Snippets is open-sourced software licensed under [the MIT license](./LICENSE)
