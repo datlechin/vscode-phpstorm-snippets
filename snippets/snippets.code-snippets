@@ -1,0 +1,143 @@
+{
+    "'echo' statement": {
+        "prefix": "eco",
+        "body": [
+            "echo '$1;'"
+        ],
+    },
+    "throw new": {
+        "prefix": "thr",
+        "body": [
+            "throw new "
+        ],
+    },
+    "foreach (interable_expr as $value)": {
+        "prefix": "fore",
+        "body": [
+            "foreach ($1 as $${2:item}) {",
+            "\t$3",
+            "}"
+        ],
+    },
+    "foreach (interable_expr as $key => $value)": {
+        "prefix": "forek",
+        "body": [
+            "foreach ($1 as $${2:key} => $${3:value}) {",
+            "\t$4",
+            "}"
+        ],
+    },
+    "Create interator loop": {
+        "prefix": "fori",
+        "body": [
+            "for ($${1:i} = 0; $${1:i} < $2; $${1:i}++) {",
+            "\t$3",
+            "}"
+        ],
+    },
+    "'require' statement": {
+        "prefix": "rer",
+        "body": [
+            "require '${1:file}';"
+        ],
+    },
+    "'require_once' statement": {
+        "prefix": "rero",
+        "body": [
+            "require_once '${1:file}';"
+        ],
+    },
+    "'include' statement": {
+        "prefix": "inc",
+        "body": [
+            "include '${1:file}';"
+        ],
+    },
+    "'include_once' statement": {
+        "prefix": "inco",
+        "body": [
+            "include_once '${1:file}';"
+        ],
+    },
+    "public function __invoke": {
+        "prefix": "__invoke",
+        "body": [
+            "public function __invoke($1)",
+            "{",
+            "\t$2",
+            "}"
+        ],
+    },
+    "public function __construct": {
+        "prefix": "__construct",
+        "body": [
+            "public function __construct($1)",
+            "{",
+            "\t$2",
+            "}"
+        ],
+    },
+    "function": {
+        "prefix": "fun",
+        "body": [
+            "function $1($2)",
+            "{",
+            "\t$3",
+            "}"
+        ],
+    },
+    "private function": {
+        "prefix": "prif",
+        "body": [
+            "private function $1($2)",
+            "{",
+            "\t$3",
+            "}"
+        ],
+    },
+    "private static function": {
+        "prefix": "prisf",
+        "body": [
+            "private static function $1($2)",
+            "{",
+            "\t$3",
+            "}"
+        ],
+    },
+    "protected static function": {
+        "prefix": "prosf",
+        "body": [
+            "protected static function $1($2)",
+            "{",
+            "\t$3",
+            "}"
+        ],
+    },
+    "protected function": {
+        "prefix": "prof",
+        "body": [
+            "protected function $1($2)",
+            "{",
+            "\t$3",
+            "}"
+        ],
+    },
+    "public function": {
+        "prefix": "pubf",
+        "body": [
+            "public function $1($2)",
+            "{",
+            "\t$3",
+            "}"
+        ],
+    },
+    "public static function": {
+        "prefix": "pubsf",
+        "body": [
+            "public static function $1($2)",
+            "{",
+            "\t$3",
+            "}"
+        ],
+    },
+}

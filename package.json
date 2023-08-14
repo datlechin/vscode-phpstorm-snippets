@@ -1,0 +1,25 @@
+{
+  "name": "phpstorm-snippets",
+  "displayName": "PHPStorm Snippets",
+  "description": "PHPStorm Snippets for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "publisher": "ngoquocdat",
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datlechin/vscode-phpstorm-snippets.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
