@@ -27,8 +27,6 @@ This extension includes the following PHPStorm-inspired code snippets:
 | `pubf`        | `public function () { ... }`                         | Public function declaration           |
 | `pubsf`       | `public static function () { ... }`                  | Public static function declaration    |
 
-\!\[\]\(art/demo.webm\)
-
 ## License
 
 PHPStorm Snippets is open-sourced software licensed under [the MIT license](./LICENSE.md)
