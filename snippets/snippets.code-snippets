@@ -2,7 +2,7 @@
     "'echo' statement": {
         "prefix": "eco",
         "body": [
-            "echo '$1;'"
+            "echo '$1';"
         ],
     },
     "throw new": {
