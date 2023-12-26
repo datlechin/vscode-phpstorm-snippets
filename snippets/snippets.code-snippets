@@ -33,7 +33,7 @@
     "$this": {
         "prefix": "t",
         "body": [
-            "$$this"
+            "$$this->"
         ],
     },
     "throw new": {

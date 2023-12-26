@@ -8,7 +8,11 @@ This extension includes the following PHPStorm-inspired code snippets:
 
 | Trigger       | Snippet                                              | Description                           |
 | ------------- | ---------------------------------------------------- | ------------------------------------- |
+| `it`          | `it('', function () { ... });`                       | Create a pest it test                 |
+| `test`        | `test('', function () { ... });`                     | Create a pest it test                 |
+| `ctor`        | `public function __construct() { ... }`              | Constructor method                    |
 | `eco`         | `echo '';`                                           | Echo statement                        |
+| `t`           | `$this->`                                            | `$this` reference                     |
 | `thr`         | `throw new`                                          | Throw statement                       |
 | `fore`        | `foreach ( as $item) { ... }`                        | `foreach` loop                        |
 | `forek`       | `foreach (interable_expr as $key => $value) { ... }` | `foreach` loop with key and value     |
