@@ -1,8 +1,39 @@
 {
+    "Create a pest it test": {
+        "prefix": "it",
+        "body": [
+            "it('$1', function () {",
+            "\t$2",
+            "});"
+        ],
+    },
+    "Create a pest it test": {
+        "prefix": "test",
+        "body": [
+            "test('$1', function () {",
+            "\t$2",
+            "});"
+        ],
+    },
+    "constructor": {
+        "prefix": "ctor",
+        "body": [
+            "public function __construct($1)",
+            "{",
+            "\t$2",
+            "}"
+        ],
+    },
     "'echo' statement": {
         "prefix": "eco",
         "body": [
             "echo '$1';"
+        ],
+    },
+    "$this": {
+        "prefix": "t",
+        "body": [
+            "$$this"
         ],
     },
     "throw new": {
